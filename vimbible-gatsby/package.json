@@ -1,0 +1,28 @@
+{
+  "name": "vimbible",
+  "version": "1.0.0",
+  "private": true,
+  "description": "vimbible",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@uiw/react-codemirror": "^3.2.1",
+    "brace": "^0.11.1",
+    "gatsby": "^4.16.0",
+    "gatsby-plugin-env-variables": "^2.2.0",
+    "gatsby-source-sanity": "^6.0.4",
+    "markdown-to-jsx": "^7.1.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1",
+    "react-toastify": "^9.0.4"
+  }
+}
