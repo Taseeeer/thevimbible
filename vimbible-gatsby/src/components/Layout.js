@@ -33,11 +33,11 @@ export default function Layout({ children }) {
 
     const handleFireAudio = () => firAudioRef.current.play();
 
-    // const persistedTheme = typeof window !== 'undefined' ? localStorage.getItem('theme') : null
+    const persistedTheme = typeof window !== 'undefined' ? localStorage.getItem('theme') : null
 
-    // useEffect(() => {
-    //     if(persistedTheme) classRef.current.className = persistedTheme;
-    // }, [persistedTheme]);
+    useEffect(() => {
+        if(persistedTheme) classRef.current.className = persistedTheme;
+    }, [persistedTheme]);
     
 
     const setSelectedTheme = (color) => {
