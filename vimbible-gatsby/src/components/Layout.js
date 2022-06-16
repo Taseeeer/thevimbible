@@ -6,7 +6,7 @@ import User from "../assets/me.png";
 
 import { useWindowSize } from "../lib/useWindowResize";
 
-import chargingAudio from "../../public/charging.mp3";
+import chargingAudio from "../assets/charging.mp3";
 import fireAudio from "../assets/fire.wav";
 
 import { GoPrimitiveDot } from "react-icons/go";
