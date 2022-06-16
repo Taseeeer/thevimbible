@@ -13,7 +13,7 @@ export default function SingleBlog({ data }) {
         const childNodes = Array.from(codeRef.current.children[0].childNodes);
 
         let pre = "[object HTMLPreElement]";
-        const codeBackground = childNodes.filter(c => c.toString() == pre);
+        const codeBackground = childNodes.filter(c => c.toString() === pre);
         for(let i in codeBackground) {
             codeBackground[i].className = "code-background";
         }

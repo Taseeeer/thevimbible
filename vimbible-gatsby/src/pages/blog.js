@@ -1,5 +1,5 @@
 import { graphql } from "gatsby";
-import React, { useEffect } from "react";
+import React from "react";
 
 import EachLink from "../components/EachLink";
 

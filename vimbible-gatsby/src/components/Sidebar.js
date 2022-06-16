@@ -53,7 +53,7 @@ export default function Sidebar({ setSelectedTheme, handleFireAudio }) {
                     <Link to="/delete">
                         <span>Update</span>
                     </Link>
-                    <Link to="/code">
+                    <Link to="/">
                         <span style={{padding: "0.5rem 2rem"}}>
                                 <DiVim style={{fontSize: "2rem"}} />
                         </span>
